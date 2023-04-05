@@ -5,9 +5,8 @@
 }
 
 html{
-    
+    font-family: sans-serif;
 }
-
 
 .nav-list{
     display: flex;
@@ -62,6 +61,7 @@ header{
     border: 0;
     border: solid #dfe1e5 1.3px;
     outline: none;
+    padding: 10px;
 }
 
 .input:hover{
