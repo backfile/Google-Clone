@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
+html{
+    
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
+.nav-list .nav-logo{
+    height: 44px;
+    border-radius: 25px;
+    
+}
+
+.nav-list .menu-icon{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJFBMVEX///8AAAD09PRhYWH7+/s6OjowMDBwcHAoKChRUVE3NzcsLCyM//LZAAAAzElEQVR4nO3dyQ3DMAxFQWfz2n+/qSCAwIu/mJkK9I4UAWlZAAAAAAAAAAAAAAAAGLa95rCVC/fHHPZy4Xr30QetChXGU6gwn0KF+RQqzKdQYT6Fvz1nUS4EAAAAAIAu3rMoFx7nZwbnUS687l4qDbrKhf23awpTKFSYT6HCfAoV5lOoMF+9sP982H/Gv/v6ZVi5EAAAAAAAurj7qYRh5cL+2zWFKRQqzKdQYT6FCvMpVJhP4T8X9v8bof//FgAAAAAAAAAAAAAAAH/oC2kQN9xJuPAoAAAAAElFTkSuQmCC");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 5px;;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.title{
+    font-size: 120px;
+    margin-bottom: 60px;
+    color: rebeccapurple;
+}
+
+.input{
+    height: 50px;
+    width: 700px;
+    border-radius: 25px;
+    border: 0;
+    border: solid #dfe1e5 1.3px;
+    outline: none;
+}
+
+.input:hover{
+    box-shadow:0 4px 6px #dfe1e5;
+}
+
+button{
+    font-size: 18px;
+    color: #646363;
+    background-color: #eeeded;
+    margin: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    outline: 0.5px solid #bdbaba;
+    box-shadow: 0px 1px 3px #646363;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    align-items: center;
+    background-color: #ececec;
+    border-top: solid #dadce0 1px;
+}
+
+.footer-section-list{
+    display: flex;
+    margin:0 30px;
+}
+
+.footer-section-list li{
+    color: #646363;
+    list-style: none;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+
